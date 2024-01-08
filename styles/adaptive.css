@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  .wrapper__right img:first-child {
+    width: 100%;
+    position: static;
+  }
+  .portfolio-list img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .hero .wrapper {
+    display: block;
+  }
+  .wrapper__right {
+    margin-top: 70px;
+  }
+  .portfolio-list img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .servives-list {
+    justify-content: center;
+    row-gap: 80px;
+  }
+  .services-list_items img {
+    width: 150px;
+  }
+  .item_descriptiom {
+    font-size: 25px;
+  }
+  .portfolio-list_item-second,
+  .portfolio-list_item-third {
+    display: none;
+  }
+  .portfolio-list_item-first {
+    width: 100%;
+  }
+  .portfolio-list_item-first img {
+    width: 100%;
+  }
+  .arrows {
+    display: flex;
+  }
+  .dots {
+    display: none;
+  }
+  .contact-us .wrapper {
+    display: block;
+  }
+  .action-btn {
+    margin-top: 25px;
+  }
+  footer .navbar,
+  footer ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  .navbar .nav-link,
+  .navbar .search {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .container p {
+    font-size: 15px;
+  }
+  .item__title {
+    font-size: 20px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .services-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 53px;
+    font-family: var(--headers-family);
+    line-height: 57px;
+    color: var(--white-color);
+    letter-spacing: var(--main-spacing);
+  }
+  .item_title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--white-color);
+    letter-spacing: -0.75 px;
+    margin-bottom: 10px;
+  }
+  .item_descriptiom {
+    color: var(--main-color);
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+  }
+  .services-title {
+    font-size: 30px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .navbar ul, .search{
+    display: none !important;
+  }
+}
